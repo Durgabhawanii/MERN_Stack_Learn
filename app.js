@@ -27,3 +27,5 @@ console.log(person.lastName);
 console.log(person.age);
 // concationation 
 console.log("My Full Name is : " + person.firstName + " " + person.middleName + " " + person.lastName + " and I am " + person.age + " Years Old.");
+// Template Literals
+console.log(`My Full Name is : ${person.firstName} ${person.middleName} ${person.lastName} and I am ${person.age} Years Old.`);
